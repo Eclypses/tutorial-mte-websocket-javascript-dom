@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Finished Tutorial",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "preLaunchTask": "Parcel Finish",
+      "url": "http://localhost:1234",
+      "webRoot": "${workspaceFolder}/finish",
+      "sourceMapPathOverrides": {
+        "*": "${webRoot}/dist/*"
+      }
+    },
+    {
+      "name": "Debug Start Tutorial",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "preLaunchTask": "Parcel Start",
+      "url": "http://localhost:1234",
+      "webRoot": "${workspaceFolder}/start",
+      "sourceMapPathOverrides": {
+        "*": "${webRoot}/dist/*"
+      }
+    }
+  ]
+}
